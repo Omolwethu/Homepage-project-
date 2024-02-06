@@ -134,4 +134,11 @@ footer .email-link {
     font-size: 30px;
     text-align: left;
   }
+
+  .main-btn {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 15px 10px;
+    border-radius: 4;
+  }
 }
