@@ -53,6 +53,7 @@ p,
   font-size: 18px;
   line-height: 25px;
 }
+
 .main-btn {
   background: var(--secondary-color);
   color: white;
