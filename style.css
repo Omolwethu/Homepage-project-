@@ -4,7 +4,6 @@
 }
 
 body {
-  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
   font-family: var(--heading-font-family);
   --primary-color: #f7e8f6;
   --secondary-color: #90e0ab;
@@ -18,7 +17,7 @@ body {
 
 .hp-hero h1 {
   line-height: 2;
-  font-size: 30px;
+  font-size: 48px;
   font-family: var(--default-font-family);
 }
 
