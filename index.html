@@ -44,30 +44,21 @@
     <title>Homepage Project - Olwethu Zulu</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Olwethu Zulu 👩🏾‍💻</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a aria-current="page" class="nav-link active" href="/">Home</a>
-            <a class="nav-link" href="/about.html">About</a>
-            <a class="nav-link" href="/projects.html">Projects</a>
-            <a class="nav-link" href="/contact.html#contact">Contact</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="d-flex justify-content-between" class="logo d-none d-md-block">
+        <a href="/">
+        <img src="images/logo.png" class="logo" alt="" />
+        </a>
+        <ul>
+          <li class="active"><a href="">Home</a></li>
+
+          <li><a href="/about.html">About</a></li>
+
+          <li><a href="/projects.html">Projects</a></li>
+
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
 
     <div class="hp-hero">
       <p>👋🏾 Hello, I am</p>
@@ -85,7 +76,7 @@
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
-            src="/images/sunscreen.jpg"
+            src="/images/sunscreen.png"
             class="img-fluid shadow rounded"
             alt="Sunscreen webpage"
           />
