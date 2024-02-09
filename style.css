@@ -111,6 +111,12 @@ footer .media-links a {
   margin: 0 20px;
 }
 
+footer .media-links a:hover {
+  color: var(--secondary-color);
+  background: white;
+  transition: all 100ms ease-in-out;
+}
+
 footer .email-link {
   font-size: 25px;
   font-family: var(--heading-font-family);
@@ -121,6 +127,7 @@ footer .email-link {
 .email-link:hover {
   text-decoration: underline;
   color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
 
 .social-handle {
@@ -162,6 +169,7 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 900px) {
