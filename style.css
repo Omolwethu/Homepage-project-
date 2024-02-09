@@ -116,6 +116,15 @@ footer .email-link {
 
 .email-link:hover {
   text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+.social-handle {
+  text-decoration: none;
+}
+.social-handle:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
 }
 
 nav {
@@ -123,7 +132,7 @@ nav {
 }
 
 .logo {
-  max-height: 40px;
+  max-height: 48px;
 }
 
 nav li {
@@ -131,6 +140,8 @@ nav li {
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
+  font: var(--default-font-family);
+  font-size: 18px;
 }
 
 nav ul {
@@ -146,7 +157,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: blueviolet;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
