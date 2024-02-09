@@ -12,7 +12,7 @@ body {
 .hp-hero {
   background: var(--primary-color);
   text-align: center;
-  padding: 140px 20px;
+  padding: 80px 20px;
 }
 
 .hp-hero h1 {
